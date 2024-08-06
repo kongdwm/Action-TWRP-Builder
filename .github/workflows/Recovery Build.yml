@@ -163,6 +163,7 @@ jobs:
         body: |
           Manifest: ${{ github.event.inputs.MANIFEST_BRANCH }}
           Device: ${{ github.event.inputs.DEVICE_NAME }}
-          Target: ${{ github.event.inputs.BUILD_TARGET }}.img
+          Target: vendor_boot.img
+          Version: a14
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
