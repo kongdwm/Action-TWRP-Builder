@@ -14,11 +14,11 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/kongdwm/kongdwm-twrp_device_Xiaomi_pearl'
+        default: 'https://github.com/kongdwm/device_xiaomi_pearl_twrp'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'master'
+        default: 'main'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
